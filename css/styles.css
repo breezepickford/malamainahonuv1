@@ -628,8 +628,8 @@ a {
 }
 
 .block--dark {
-  /*background: #000;*/
-  background-image: url("image/mainturtle.jpg");
+  background: var(--color-secondary);
+  /*background-image: url("image/mainturtle.jpg"); /*FIXME: not displaying correctly*/
   color: #7b858b;
 }
 
