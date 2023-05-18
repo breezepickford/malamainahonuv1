@@ -632,6 +632,10 @@ a {
   color: #7b858b;
 }
 
+.block--turtle {
+  background-image: url('images/mainturtle.jpg');
+}
+
 .block--dark h1,
 .block--dark h2,
 .block--dark h3 {
