@@ -667,7 +667,7 @@ a {
 
 /* Navigation Bar */
 .nav {
-  background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(2,102,128,0)), url('../images/mainturtle.jpg');
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(2,102,128,0)), url('../images/mainturtle.jpg');
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
