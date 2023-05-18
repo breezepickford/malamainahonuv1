@@ -719,7 +719,7 @@ a {
 
 .block-insert__tagline {
   font-size: 2rem;
-  color: #b9c3cf;
+  color: var(--color-headings);
   letter-spacing: 1px;
   margin: 2rem 0 5rem;
 }
