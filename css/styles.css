@@ -365,6 +365,7 @@ a {
 .plan__price--smaller {
   font-size: 4.5rem;
   letter-spacing: 0px;
+  display: inline-flex;
 }
 
 .plan__billing-cycle {
