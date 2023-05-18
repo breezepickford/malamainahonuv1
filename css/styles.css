@@ -364,7 +364,7 @@ a {
 
 .plan__price--smaller {
   font-size: 4.5rem;
-  letter-spacing: 0px;
+  letter-spacing: -1px;
   display: inline-flex;
 }
 
