@@ -608,7 +608,9 @@ a {
 
 .block__heading {
   margin-top: 7rem;
-  font-size: 5rem;
+  font-size: 7rem;
+  line-height: 0.5;
+  letter-spacing: -1;
 }
 
 .block--turtle {
