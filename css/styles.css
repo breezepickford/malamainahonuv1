@@ -452,6 +452,7 @@ a {
   font-weight: 500;
   font-style: bold;
   margin-bottom: 0;
+  white-space: nowrap;
 }
 
 .quote__line {
