@@ -610,15 +610,22 @@ a {
   margin-top: 0;
 }
 
+.block--turtle {
+  background-image: url('../image/mainturtle.jpg'); /*FIXME: not displaying correctly*/
+  color: #7b858b;
+}
+
 .block--dark {
   background: var(--color-secondary);
-  /*background-image: url("image/mainturtle.jpg"); /*FIXME: not displaying correctly*/
   color: #7b858b;
 }
 
 .block--dark h1,
 .block--dark h2,
-.block--dark h3 {
+.block--dark h3,
+.block--turtle h1,
+.block--turtle h2,
+.block--turtle h3 {
   color: #fff;
 }
 
