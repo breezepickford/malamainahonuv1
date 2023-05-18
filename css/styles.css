@@ -791,12 +791,13 @@ a {
 
   .block-showcase__image {
     justify-self: end;
+    border-radius: 7px;
+    margin-right: 2rem;
   }
 
   .block-showcase__image > img {
-    width: 40rem;
+    width: auto;
     max-width: 700px;
-    margin-right: 2rem;
   }
 }
 
