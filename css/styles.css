@@ -331,7 +331,7 @@ a {
 .card__body--image {
   padding: 0;
   width: 100%;
-  display: contain;
+  display: cover;
 }
 
 .card--primary .card__header {
