@@ -800,6 +800,7 @@ a {
   }
 
   .block-showcase__image {
+    margin-top: 5rem;
     margin-right: 4rem;
     justify-self: end;
     border-radius: 7px;
