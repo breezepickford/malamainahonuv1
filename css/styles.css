@@ -705,9 +705,9 @@ a {
   }
 }
 
-/* Hero */
+/* Block Insert */
 
-.hero__tagline {
+.block-insert__tagline {
   font-size: 2rem;
   color: #b9c3cf;
   letter-spacing: 1px;
@@ -715,14 +715,14 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  .hero__content {
+  .block-insert__content {
     text-align: left;
     align-self: center;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .hero {
+  .block-insert {
     padding-top: 0;
   }
 }
@@ -792,12 +792,12 @@ a {
   .block-showcase__image {
     justify-self: end;
     border-radius: 7px;
-    margin-right: 2rem;
   }
 
   .block-showcase__image > img {
     width: auto;
     max-width: 700px;
+    margin-right: 2rem;
   }
 }
 
