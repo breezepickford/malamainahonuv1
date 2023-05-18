@@ -279,7 +279,7 @@ a {
   }
 }
 
-/* Inputs */
+/* Inputs , for dummy search bar format*/
 .input {
   border-radius: var(--border-radius);
   border: 1px solid var(--color-border);
@@ -316,7 +316,7 @@ a {
   }
 }
 
-/* Cards */
+/* Cards Most Basic */
 .card {
   border-radius: 7px;
   box-shadow: 0 0 20px 10px #f3f3f3;
@@ -346,7 +346,7 @@ a {
   background: #02cdf1;
 }
 
-/* Plans */
+/* Plans aka Cards with Stuff in Them */
 .plan {
   transition: transform 0.2s ease-out;
 }
@@ -483,45 +483,47 @@ a {
   display: grid;
 }
 
+/*only do 2 col grids if its at least as big as an ipad*/
 @media screen and (min-width: 768px) {
   .grid--1x2 {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
+/*only do 3 col grids if its at least as big as a desktop*/
 @media screen and (min-width: 1024px) {
   .grid--1x3 {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-/* Testimonials */
-.testimonial {
+/* Frequent Basker */
+.freqbask {
   padding: 3rem;
 }
 
-.testimonial .quote {
+.freqbask .quote {
   margin: 2rem 0;
   font-size: 110%;
 }
 
-.testimonial__image {
+.freqbask__image {
   position: relative;
   margin: 0 3rem;
 }
 
-.testimonial__image > .icon-container {
+.freqbask__image > .icon-container {
   position: absolute;
   top: 3rem;
   right: -32px;
 }
 
 @media screen and (min-width: 768px) {
-  .testimonial__image {
+  .freqbask__image {
     margin: 0;
   }
 
-  .testimonial .quote {
+  .freqbask .quote {
     margin: 5rem 0 0 6rem;
     font-size: 120%;
     line-height: 1.5;
