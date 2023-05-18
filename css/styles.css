@@ -231,7 +231,7 @@ a {
 }
 
 .btn--primary:hover {
-  background: #3a8ffd;
+  background: #4797ff;
 }
 
 .btn--secondary {
@@ -240,7 +240,7 @@ a {
 }
 
 .btn--secondary:hover {
-  background: #05cdf0;
+  background: #76ebff;
 }
 
 .btn--accent {
@@ -249,7 +249,7 @@ a {
 }
 
 .btn--accent:hover {
-  background: #ec3000;
+  background: #168f46;
 }
 
 .btn--outline {
