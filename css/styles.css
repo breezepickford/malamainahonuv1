@@ -628,8 +628,9 @@ a {
 }
 
 .block--dark {
-  background-image: url('images/mainturtle.jpg'), #000;
-  background-size: cover;
+  background: #000;
+  /*background-image: url('images/mainturtle.jpg'), #000;
+  background-size: cover;*/
   color: #7b858b;
 }
 
