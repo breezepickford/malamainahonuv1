@@ -624,7 +624,7 @@ a {
 }
 
 .block--turtle {
-  background-image: url('../image/mainturtle.jpg'); /*FIXME: not displaying correctly*/
+  background-image: url('../images/mainturtle.jpg'); /*FIXME: not displaying correctly*/
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
