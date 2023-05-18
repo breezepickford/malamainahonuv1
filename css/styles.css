@@ -618,8 +618,13 @@ a {
   color: #7b858b;
 }
 
-.block--dark {
+.block--temp {
   background: var(--color-secondary);
+  color: #7b858b;
+}
+
+.block--dark {
+  background: #00212e;
   color: #7b858b;
 }
 
