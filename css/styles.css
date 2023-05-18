@@ -609,9 +609,9 @@ a {
 .block__heading {
   margin-top: 17rem;
   margin-bottom: 1rem;
-  font-size: 6.5rem;
+  font-size: 6.3rem;
   line-height: 1;
-  letter-spacing: -1;
+  letter-spacing: -0.5;
   font-weight: 600;
 }
 
