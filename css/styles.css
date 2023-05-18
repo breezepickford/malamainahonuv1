@@ -794,9 +794,9 @@ a {
   }
 
   .block-showcase__image > img {
-    width: auto;
+    width: 40rem;
     max-width: 700px;
-    margin: 2rem;
+    margin-right: 2rem;
   }
 }
 
