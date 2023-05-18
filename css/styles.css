@@ -15,18 +15,18 @@
   box-sizing: border-box;
 }
 
-/* Typography */
+/* Text Elements */
 ::selection {
   background: var(--color-primary);
   color: #fff;
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 62.5%; /*default is 16px, so 62.5% of 16 is 10px, that makes for easy math later on*/
 }
 
 img {
-  width: 100%;
+  width: 100%; /*makes all images move with their containers*/
 }
 
 body {
@@ -199,8 +199,8 @@ a {
   align-items: center;
 }
 
-.icon-container--accent {
-  background: var(--color-accent);
+.icon-container--gold {
+  background: gold);
 }
 
 /* Buttons */
@@ -463,13 +463,6 @@ a {
   margin-bottom: 0;
 }
 
-.quote__organization {
-  color: var(--color-headings);
-  opacity: 0.4;
-  font-size: 1.5rem;
-  font-style: normal;
-}
-
 .quote__line {
   position: relative;
   bottom: 10px;
@@ -482,10 +475,6 @@ a {
 
   .quote__author {
     font-size: 2.4rem;
-  }
-
-  .quote__organization {
-    font-size: 1.6rem;
   }
 }
 
