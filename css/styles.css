@@ -328,6 +328,12 @@ a {
   padding: 2rem 7%;
 }
 
+.card__body--image {
+  padding: 0;
+  width: 100%;
+  display: cover;
+}
+
 .card--primary .card__header {
   background: var(--color-primary);
   color: #fff;
