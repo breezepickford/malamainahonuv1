@@ -611,6 +611,7 @@ a {
   font-size: 7rem;
   line-height: 1;
   letter-spacing: -1;
+  font-weight: 400;
 }
 
 .block--turtle {
