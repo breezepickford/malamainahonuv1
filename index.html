@@ -14,14 +14,18 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
+    <!--front home section-->
+    <section class="block block--nav block--turtle block--skewed-left block-insert">
+         <!--nav bar section-->
     <header>
       <nav class="nav collapsible">
-        <a class="nav__brand" href="/"><img src="images/malamalogo.svg" alt="green turtle logo malama i na honu" /></a>
+        <a class="nav__brand" href="/"><img class="logo" src="images/malamalogo.png" alt="green turtle logo malama i na honu" /></a>
         <svg class="icon icon--white nav__toggler">
-          <use xlink:href="images/sprite.svg#menu"></use>
+          <use href="images/sprite.svg#menu"></use>
         </svg>
         <ul class="list nav__list collapsible__content">
           <li class="nav__item"><a href="#">Adopt & Donate</a></li>
+          <li class="nav__item"><a href="#">Shop Merch</a></li>
           <li class="nav__item"><a href="#">Visit with Respect</a></li>
           <li class="nav__item"><a href="#">Meet the Honu</a></li>
           <li class="nav__item"><a href="#">Data</a></li>
@@ -29,7 +33,6 @@
         </ul>
       </nav>
     </header>
-    <section class="block block--turtle block--skewed-left block-insert">
       <div class="container grid grid--1x2">
         <header class="block__header block-insert__content">
           <h1 data-aos="fade-right" class="block__heading">
@@ -54,6 +57,7 @@
         </p>
       </header>
     </section>
+    <!--3 cards section-->
     <section data-aos="fade-up" class="block container block-plans">
       <div class="grid grid--1x3">
         <div class="plan">
@@ -63,7 +67,7 @@
               <span class="plan__price">Our Honu</span>
               <span class="plan__description">4 flippered biographies</span>
             </header>
-              <img class="card__body--image" src="/images/turtlehead.jpg" alt=""/>
+              <img class="card__body--image" src="/images/turtlehead.jpg" alt="close up of turtles head on land"/>
           </div>
         </div>
         <div class="plan plan--popular">
@@ -74,8 +78,8 @@
               <span class="plan__billing-cycle">/month</span>
               <span class="plan__description">Adopt a turtle and leave a legacy</span>
             </header>
-              <img class="card__body--image" src="/images/facedown.jpg" alt=""/>
-          </div>
+              <img class="card__body--image" src="/images/facedown.jpg" alt="turtle on land looking down"/>
+            </div>
         </div>
         <div class="plan">
           <div class="card card--secondary">
@@ -84,11 +88,27 @@
               <span class="plan__price plan__price--smaller">Visit & Learn</span>
               <span class="plan__description">A respectful start to your vaction</span>
             </header>
-              <img class="card__body--image" src="/images/onbeach.jpg" alt=""/>
+              <img class="card__body--image" src="/images/onbeach.jpg" alt="turtle lying on beach with red rope around it and a rainbow in the sky"/>
           </div>
         </div>
       </div>
     </section>
+    <!--merch ad section-->
+    <div class="container">
+      <div class="callout callout--secondary callout-signup">
+        <div class="grid grid--1x2">
+          <div class="callout__content">
+            <h2 class="callout__heading">Purchase Merchandise!</h2>
+            <p>
+              Mālama i nā honu shirts, hoodies, tank tops and much more available!
+            </p>
+          </div>
+          <!--note: link below is to current merch shop, this site also needs to be updated-->
+          <a href="https://malamanahonu.creator-spring.com/?" class="btn btn--white btn--stretched">Shop</a>
+        </div>
+      </div>
+    </div>
+    <!--info section-->
     <section class="block container">
       <header class="block__header">
         <h2>The Story of Hawaii's Turtles</h2>
@@ -99,9 +119,7 @@
       <article class="grid grid--1x2 feature">
         <div class="feature__content" data-aos="fade-right">
           <span class="icon-container">
-            <svg class="icon icon--primary">
-              <use xlink:href="../images/turtle-icon.svg"></use>
-            </svg>
+            <img class="icon--medium" src="images/turtle-icon.svg" alt="outline of turtle icon"/>
           </span>
           <h3 class="feature__heading">Cultural Significance</h3>
           <p>
@@ -113,14 +131,12 @@
           </p>
           <a href="#" class="link-arrow">Learn More</a>
         </div>
-          <img class="feature__image" data-aos="zoom-in-left" src="/images/greenturtle1.jpg" alt="" />
+          <img class="feature__image" data-aos="zoom-in-left" src="/images/greenturtle1.jpg" alt="a turtle swimming in bright greenish water" />
       </article>
       <article class="grid grid--1x2 feature">
-        <div class="feature__content">
+        <div class="feature__content" data-aos="fade-left">
           <span class="icon-container">
-            <svg class="icon icon--primary">
-              <use xlink:href="../images/scroll-icon.svg"></use>
-            </svg>
+              <img class="icon--medium" src="images/scroll-icon.svg" alt="scroll icon">
           </span>
           <h3 class="feature__heading">Historical Role</h3>
           <p>
@@ -133,14 +149,12 @@
           </p>
           <a href="#" class="link-arrow">Learn More</a>
         </div>
-          <img class="feature__image" src="/images/handheldturtle.jpg" alt="" />
+          <img class="feature__image" data-aos="zoom-in-right" src="/images/handheldturtle.jpg" alt="a turtle hatchling held in a hand above sand" />
       </article>
       <article class="grid grid--1x2 feature">
-        <div class="feature__content">
+        <div class="feature__content" data-aos="fade-right">
           <span class="icon-container">
-            <svg class="icon icon--primary">
-              <use xlink:href="images/downgraphicon.svg"></use>
-            </svg>
+              <img class="icon--medium" src="images/downgraphicon.svg" alt="decline arrow icon"/>
           </span>
           <h3 class="feature__heading">Population Decline</h3>
           <p>
@@ -152,13 +166,13 @@
           </p>
           <a href="#" class="link-arrow">Learn More</a>
         </div>
-          <img class="feature__image" src="/images/deepblueturtle.jpg" alt="" />
+          <img class="feature__image" data-aos="flip-left" src="/images/deepblueturtle.jpg" alt="a turtle swimming in deep blue water" />
       </article>
       <article class="grid grid--1x2 feature">
-        <div class="feature__content">
+        <div class="feature__content" data-aos="fade-left">
           <span class="icon-container">
-            <svg class="icon icon--primary">
-              <use xlink:href="images/sprite.svg#clock"></use>
+            <svg class="icon icon--medium">
+              <use href="images/sprite.svg#clock"></use>
             </svg>
           </span>
           <h3 class="feature__heading">Current Policy & Regulations</h3>
@@ -170,21 +184,22 @@
           </p>
           <a href="#" class="link-arrow">Learn More</a>
         </div>
-          <img class="feature__image" src="images/redropeturtle.jpg" alt="" />
+          <img class="feature__image" data-aos="flip-right" src="images/redropeturtle.jpg" alt="a red rope around a turtle" />
       </article>
     </section>
+    <!--about us / who we are section-->
     <section class="block block--dark block--skewed-right block-showcase">
       <header class="block__header">
         <h2>Who We Are</h2>
       </header>
       <div class="container grid grid--1x2">
-          <img src="images/volunteerpic.jpg" data-aos="fade-right" class="block-showcase__image" alt="" />
+          <img src="images/volunteerpic.jpg" data-aos="fade-right" class="block-showcase__image" alt="a picture of debbie and another volunteer for malama na honu" />
         <ul class="list" data-aos="fade-up">
           <li>
             <div class="media">
               <div class="media__image">
                 <svg class="icon icon--primary">
-                  <use xlink:href="/images/volunteer.svg"></use>
+                  <use href="/images/volunteer.svg"></use>
                 </svg>
               </div>
               <div class="media__body">
@@ -204,7 +219,7 @@
             <div class="media">
               <div class="media__image">
                 <svg class="icon icon--primary">
-                  <use xlink:href="/images/clipboard.svg"></use>
+                  <use href="/images/clipboard.svg"></use>
                 </svg>
               </div>
               <div class="media__body">
@@ -219,6 +234,7 @@
         </ul>
       </div>
     </section>
+    <!--frequent basker of the month section-->
     <section class="block" data-aos="zoom-in">
       <header class="block__header">
         <h2>Most Frequent Basker of the Month</h2>
@@ -236,23 +252,21 @@
               />
               <span class="icon-container icon-container--gold">
                 <svg class="icon icon--white">
-                  <use xlink:href="/images/star.svg"></use>
+                  <use href="/images/star.svg"></use>
                 </svg>
               </span>
             </div>
-            <blockquote class="quote">
-              <h3>
+            <blockquote class="frequently">
                 <div class="media">
                   <div class="media__body">
-                    <h3 class="media__title quote__author"> KAIMANA basked 8 times in April!</h3>
+                    <h3 class="media__title frequently__title"> KAIMANA basked 8 times in April!</h3>
                   </div>
                   <div class="media__image">
-                    <svg class="icon icon--primary quote__line">
-                      <use xlink:href="images/sprite.svg#line"></use>
+                    <svg class="icon icon--primary frequently__line">
+                      <use href="images/sprite.svg#line"></use>
                     </svg>
                   </div>
                 </div>
-              </h3>
               <p>
                 Name Meaning: Power of the Sea <br>
                 ID: L-31 Age: Subadult <br>
@@ -267,7 +281,7 @@
       </div>
     </section>
     <div class="container">
-      <div class="callout callout--primary callout-signup">
+      <div class="callout callout--accent callout-signup">
         <div class="grid grid--1x2">
           <div class="callout__content">
             <h2 class="callout__heading">Want to get involved?</h2>
@@ -279,16 +293,16 @@
         </div>
       </div>
     </div>
-
+    <!--begin footer section-->
     <footer class="block block--dark footer">
       <div class="container grid footer__sections">
         <section class="collapsible collapsible--expanded footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Home</h2>
             <svg class="icon icon--white collapsible__chevron">
-              <use xlink:href="images/sprite.svg#chevron"></use>
+              <use href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">Get Started</a></li>
@@ -300,12 +314,12 @@
           </div>
         </section>
         <section class="collapsible footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">More Pages</h2>
             <svg class="icon icon--white collapsible__chevron">
-              <use xlink:href="images/sprite.svg#chevron"></use>
+              <use href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">Adopt & Donate</a></li>
@@ -317,12 +331,12 @@
           </div>
         </section>
         <section class="collapsible footer__section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Contact</h2>
             <svg class="icon icon--white collapsible__chevron">
-              <use xlink:href="images/sprite.svg#chevron"></use>
+              <use href="images/sprite.svg#chevron"></use>
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">Marine Animal Stranding Hotline: (888) 256 9840</a></li>
@@ -330,10 +344,10 @@
             </ul>
           </div>
         </section>
-        <section class="footer__brand">
-          <img src="images/malamalogo.svg" alt="" />
+        <div class="footer__brand">
+          <img src="images/malamalogo.svg" alt="malama na honu logo" />
           <p class="footer__copyright">Copyright 2023</p>
-        </section>
+        </div>
       </div>
     </footer>
     <script src="js/main.js"></script>
